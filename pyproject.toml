@@ -1,0 +1,27 @@
+[project]
+name = "mini-project"
+dynamic = ["version"]
+description = "mini-project"
+readme = "README.md"
+dependencies = [
+    "chartreuse==4.3.0",
+    "remoulade==3.2.0"
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+zip-safe = true
+
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+explicit = true
+
+[tool.uv.sources]
+chartreuse = {index = "pypi"}
+remoulade = {index = "pypi"}
