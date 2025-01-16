@@ -4,8 +4,8 @@ dynamic = ["version"]
 description = "mini-project"
 readme = "README.md"
 dependencies = [
-    "chartreuse==4.3.0",
-    "remoulade==3.2.0"
+    "chartreuse~=4.3.0",
+    "remoulade~=3.2"
 ]
 
 [build-system]
