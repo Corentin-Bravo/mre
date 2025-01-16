@@ -5,7 +5,8 @@ description = "mini-project"
 readme = "README.md"
 dependencies = [
     "chartreuse~=4.3.0",
-    "remoulade~=3.2"
+    "remoulade~=3.2",
+    "uv==0.5.20"
 ]
 
 [build-system]

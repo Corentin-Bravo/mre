@@ -75,6 +75,8 @@ urllib3==2.3.0
     # via
     #   kubernetes
     #   requests
+uv==0.5.20
+    # via mini-project (pyproject.toml)
 websocket-client==1.8.0
     # via kubernetes
 wiremind-kubernetes==7.4.5
